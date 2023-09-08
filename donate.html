@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Charity</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <h1>Charity Foundation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="donate-section">
+        <h2>Make a Donation</h2>
+        <div class="donate-form">
+            <label for="amount">Choose an amount:</label>
+            <select id="amount">
+                <option value="10"> $10</option>
+                <option value="25"> $25</option>
+                <option value="50"> $50</option>
+                <option value="100"> $100</option>
+                <option value="custom">Custom Amount</option>
+            </select>
+            <div id="custom-amount" class="hidden">
+                <label for="custom">Enter a custom amount:</label>
+                <input type="text" id="custom" placeholder="Enter custom amount">
+            </div>
+            <button id="donate-button">Donate Now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.Facebook.com"><img src="images/R.png" alt="Facebook"></a>
+                <a href="#"><img src="images/t.jpg" alt="Twitter"></a>
+                <a href="#"><img src="images/R (1).png" alt="Instagram"></a>
+            </div>
+            <div class="contact-info">
+                <p>Email: charity@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+                <p>Address: 123 Charity Lane, City, Country</p>
+            </div>
+        </div>
+        <p>&copy; 2023 Charity Foundation</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
